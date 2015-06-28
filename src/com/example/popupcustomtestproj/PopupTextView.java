@@ -171,8 +171,9 @@ public class PopupTextView extends TextView
         {
             x = (int) (mScreenWidth - mWidth - 10 * mDensity);
         }
-        mShowDown = mAnchorYDown+ mHeight < mScreenHeight || mAnchorYDown <= mScreenHeight / 2;
-        int y = mShowDown ? mAnchorYDown : mAnchorYUp - mHeight;
+        boolean showDown = mAnchorYDown+ mHeight < mScreenHeight || mAnchorYDown <= mScreenHeight / 2;
+        setShowDown(showDown);
+        int y = showDown ? mAnchorYDown : mAnchorYUp - mHeight;
         return new Point(x, y);
     }
 
