@@ -17,4 +17,4 @@ English
  
  ![image](https://github.com/cumtping/PopupCustomTestProj/blob/master/screenshots/3.png)
  
- ![image](https://github.com/cumtping/PopupCustomTestProj/blob/master/screenshots/.png)
+ ![image](https://github.com/cumtping/PopupCustomTestProj/blob/master/screenshots/4.png)
